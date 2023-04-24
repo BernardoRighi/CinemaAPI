@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "a56ce0e1-6f51-43d8-a02f-458c2436611a",
+		"name": "Cinema - Filmes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Novo Filme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\" : \"Piratas do Caribe 848\",\r\n    \"duracao\" : 120,\r\n    \"sinopse\" : \"Continuação das continuações\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/Filme/"
+			},
+			"response": []
+		},
+		{
+			"name": "Procurar Filme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/Filme/9f942e35-b70a-408d-91a0-0ad3c7285a5b"
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Filme",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\" : \"Piratas do Caribe 2\",\r\n    \"duracao\" : 130,\r\n    \"sinopse\" : \"Ramake do antigo filme\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/Filme/9f942e35-b70a-408d-91a0-0ad3c7285a5b"
+			},
+			"response": []
+		}
+	]
+}
