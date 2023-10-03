@@ -1,4 +1,4 @@
-﻿namespace Cinema.WebApi.Models
+﻿namespace CinemaAPI.WebApi.Models
 {
     public class SessaoFilmeReturnModel
     {

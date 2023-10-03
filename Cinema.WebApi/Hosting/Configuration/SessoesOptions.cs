@@ -1,4 +1,4 @@
-﻿namespace Cinema.WebApi.Hosting.Configuration
+﻿namespace CinemaAPI.WebApi.Hosting.Configuration
 {
     public class SessoesOptions
     {

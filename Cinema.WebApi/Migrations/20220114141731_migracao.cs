@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Cinema.WebApi.Migrations
+namespace CinemaAPI.WebApi.Migrations
 {
     public partial class migracao : Migration
     {

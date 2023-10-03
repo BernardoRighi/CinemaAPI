@@ -1,6 +1,3 @@
-using Cinema.WebApi.Hosting.Configuration;
-using Cinema.WebApi.Hosting.Filtros;
-using Cinema.WebApi.Infraestrutura;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +7,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using CinemaAPI.WebApi.Infrastructure;
+using CinemaAPI.WebApi.Hosting.Configuration;
+using CinemaAPI.WebApi.Hosting.Filters;
 
 namespace Cinema.WebApi
 {

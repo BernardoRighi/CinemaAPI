@@ -1,13 +1,13 @@
-﻿using Cinema.WebApi.Dominio;
-using Cinema.WebApi.Infraestrutura;
-using Cinema.WebApi.Models;
+﻿using CinemaAPI.WebApi.Models;
+using CinemaAPI.WebApi.Domain;
+using CinemaAPI.WebApi.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Cinema.WebApi.Controllers
+namespace CinemaAPI.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

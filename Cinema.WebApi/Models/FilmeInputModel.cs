@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Cinema.WebApi.Models
+namespace CinemaAPI.WebApi.Models
 {
     public class FilmeInputModel
     {

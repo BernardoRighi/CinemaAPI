@@ -3,10 +3,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Threading;
 using Microsoft.EntityFrameworkCore;
-using Cinema.WebApi.Dominio;
-using Cinema.WebApi.Infraestrutura.EntityConfigurations;
+using CinemaAPI.WebApi.Domain;
+using CinemaAPI.WebApi.Infrastructure.EntityConfigurations;
 
-namespace Cinema.WebApi.Infraestrutura
+namespace CinemaAPI.WebApi.Infrastructure
 {
     public class CinemaDbContext : DbContext
     {

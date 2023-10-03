@@ -1,7 +1,7 @@
 ﻿using CSharpFunctionalExtensions;
 using System;
 
-namespace Cinema.WebApi.Dominio
+namespace CinemaAPI.WebApi.Domain
 {
     public sealed class Filme
     {

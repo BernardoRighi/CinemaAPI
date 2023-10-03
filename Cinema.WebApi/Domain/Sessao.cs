@@ -3,7 +3,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Cinema.WebApi.Dominio
+namespace CinemaAPI.WebApi.Domain
 {
     public sealed class Sessao
     {

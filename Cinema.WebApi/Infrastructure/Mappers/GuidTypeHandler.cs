@@ -2,7 +2,7 @@
 using System.Data;
 using Dapper;
 
-namespace Cinema.WebApi.Infraestrutura.Mappers
+namespace CinemaAPI.WebApi.Infrastructure.Mappers
 {
     public class GuidTypeHandler : SqlMapper.TypeHandler<Guid>
     {

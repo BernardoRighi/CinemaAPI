@@ -1,10 +1,10 @@
-﻿using Cinema.WebApi.Dominio;
+﻿using CinemaAPI.WebApi.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Cinema.WebApi.Infraestrutura
+namespace CinemaAPI.WebApi.Infrastructure
 {
     public sealed class FilmesRepositorio
     {

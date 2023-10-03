@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Net;
 
-namespace Cinema.WebApi.Hosting.Filtros
+namespace CinemaAPI.WebApi.Hosting.Filters
 {
     public class InternalServerErrorObjectResult : ObjectResult
     {
@@ -24,8 +24,8 @@ namespace Cinema.WebApi.Hosting.Filtros
 
         public HttpGlobalExceptionFilter(IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
-            this._env = env;
-            this._logger = loggerFactory.CreateLogger<HttpGlobalExceptionFilter>();
+            _env = env;
+            _logger = loggerFactory.CreateLogger<HttpGlobalExceptionFilter>();
         }
 
         public void OnException(ExceptionContext context)

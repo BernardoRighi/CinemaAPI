@@ -1,12 +1,12 @@
-﻿using Cinema.WebApi.Dominio;
-using Cinema.WebApi.Models;
+﻿using CinemaAPI.WebApi.Domain;
+using CinemaAPI.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Cinema.WebApi.Infraestrutura
+namespace CinemaAPI.WebApi.Infrastructure
 {
     public sealed class SessoesRepositorio
     {

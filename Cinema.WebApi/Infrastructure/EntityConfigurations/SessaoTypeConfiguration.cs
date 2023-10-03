@@ -1,9 +1,9 @@
-﻿using Cinema.WebApi.Dominio;
+﻿using CinemaAPI.WebApi.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 
-namespace Cinema.WebApi.Infraestrutura.EntityConfigurations
+namespace CinemaAPI.WebApi.Infrastructure.EntityConfigurations
 {
     public sealed class SessaoTypeConfiguration : IEntityTypeConfiguration<Sessao>
     {
